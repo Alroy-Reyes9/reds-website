@@ -10,7 +10,7 @@ class AboutController extends Controller
     {
         $team = [
             ['name' => 'Engr. Roland Fuentes', 'role' => 'Founder & Chief Engineer', 'desc' => 'Over 20 years of experience in electromechanical systems and HVAC design.'],
-            ['name' => 'Engr. Romie', 'role' => 'Lead Technician', 'desc' => 'Specializes in large-scale commercial HVAC design and energy efficiency.'],
+            ['name' => 'Engr. Romualdo Viñas', 'role' => 'Lead Technician', 'desc' => 'Specializes in large-scale commercial HVAC design and energy efficiency.'],
             ['name' => 'Engr. Dhino Cruz', 'role' => 'Industrial Systems Lead', 'desc' => 'Expert in boiler, chiller, and compressed air systems for industrial clients.'],
             ['name' => 'Engr. Eon Reyes', 'role' => 'Service Operations Manager', 'desc' => 'Manages field technician teams and ensures quality of all service deliveries.'],
         ];
