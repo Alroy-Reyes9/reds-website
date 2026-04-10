@@ -382,7 +382,6 @@
 
         .footer-brand img {
             height: 50px;
-            filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(315deg);
             margin-bottom: 1rem;
         }
 
