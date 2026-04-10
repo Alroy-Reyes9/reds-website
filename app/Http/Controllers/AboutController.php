@@ -9,7 +9,7 @@ class AboutController extends Controller
     public function index()
     {
         $team = [
-            ['name' => 'Engr. Rolando Fuentes', 'role' => 'Founder & Chief Engineer', 'desc' => 'Over 20 years of experience in electromechanical systems and HVAC design.'],
+            ['name' => 'Engr. Roland Fuentes', 'role' => 'Founder & Chief Engineer', 'desc' => 'Over 20 years of experience in electromechanical systems and HVAC design.'],
             ['name' => 'Engr. Dhino Cruz', 'role' => 'Lead HVAC Engineer', 'desc' => 'Specializes in large-scale commercial HVAC design and energy efficiency.'],
             ['name' => 'Engr. Eon Reyes', 'role' => 'Industrial Systems Lead', 'desc' => 'Expert in boiler, chiller, and compressed air systems for industrial clients.'],
             
