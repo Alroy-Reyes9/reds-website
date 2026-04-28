@@ -5,7 +5,7 @@
 <section class="page-hero">
   <div class="container">
     <span class="label">Get In Touch</span>
-    <h1>Contact <span class="text-red">REDS EDS</span></h1>
+    <h1>Contact <span class="text-red">REDS</span></h1>
     <p>Request a quote, book a site visit, or ask us anything about your project.</p>
   </div>
 </section>

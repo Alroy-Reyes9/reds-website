@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','REDS EDS – Expert Electromechanical Engineering')
+@section('title','REDS – Expert Electromechanical Engineering')
 @section('content')
 
 {{-- HERO --}}
@@ -8,7 +8,7 @@
     <div class="hero-text">
       <span class="hero-eyebrow">Trusted Since Day One</span>
       <h1 class="hero-title">Engineering<br><span class="text-red">Comfort.</span><br>Powering<br><span class="text-red">Reliability.</span></h1>
-      <p class="hero-sub">From aircon installation to industrial chillers, REDS EDS delivers precision electromechanical solutions for homes, offices, and industrial facilities.</p>
+      <p class="hero-sub">From aircon installation to industrial chillers, REDS delivers precision electromechanical solutions for homes, offices, and industrial facilities.</p>
       <div class="hero-ctas">
         <a href="{{ route('contact') }}" class="btn btn-primary">Request a Quote</a>
         <a href="{{ route('services') }}" class="btn btn-ghost">Our Services</a>
