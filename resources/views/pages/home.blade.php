@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','REDS – Expert Electromechanical Engineering')
+@section('title','REDS EDS – Expert Electromechanical Engineering')
 @section('content')
 
 {{-- HERO --}}
@@ -8,16 +8,16 @@
     <div class="hero-text">
       <span class="hero-eyebrow">Trusted Since Day One</span>
       <h1 class="hero-title">Engineering<br><span class="text-red">Comfort.</span><br>Powering<br><span class="text-red">Reliability.</span></h1>
-      <p class="hero-sub">From aircon installation to industrial chillers, REDS delivers precision electromechanical solutions for homes, offices, and industrial facilities.</p>
+      <p class="hero-sub">From aircon installation to industrial chillers, REDS EDS delivers precision electromechanical solutions for homes, offices, and industrial facilities.</p>
       <div class="hero-ctas">
         <a href="{{ route('contact') }}" class="btn btn-primary">Request a Quote</a>
         <a href="{{ route('services') }}" class="btn btn-ghost">Our Services</a>
       </div>
     </div>
     <div class="hero-photos">
-      <div class="hp hp-main"><img src="{{ asset('images/install-outdoor-unit.jpg') }}" alt="Team installing outdoor unit"></div>
-      <div class="hp hp-top"><img src="{{ asset('images/indoor-unit-repair.jpg') }}" alt="Indoor unit service"></div>
-      <div class="hp hp-bot"><img src="{{ asset('images/rooftop-repair.jpg') }}" alt="Rooftop repair"></div>
+      <div class="hp hp-main"><img src="{{ asset('images/hvac-scaffold-install.jpg') }}" alt="Commercial HVAC installation on scaffold"></div>
+      <div class="hp hp-top"><img src="{{ asset('images/floor-mounted-install.jpg') }}" alt="Floor-mounted unit installation"></div>
+      <div class="hp hp-bot"><img src="{{ asset('images/install-outdoor-unit.jpg') }}" alt="Outdoor unit team install"></div>
     </div>
   </div>
 </section>
@@ -68,16 +68,23 @@
     <div class="sec-hdr">
       <span class="label">Our Work</span>
       <h2>Projects by Our Team</h2>
-      <p>Real installations and service calls handled by our certified technicians.</p>
+      <p>Residential, commercial, and industrial — from supply to final installation.</p>
     </div>
     <div class="gallery">
-      <div class="gi gi--tall"><img src="{{ asset('images/install-outdoor-unit.jpg') }}" alt="Team install"><div class="gi-cap">Outdoor Unit Team Installation</div></div>
-      <div class="gi"><img src="{{ asset('images/mitsubishi-indoor-unit.jpg') }}" alt="Mitsubishi unit"><div class="gi-cap">Mitsubishi Heavy Industries Split-Type</div></div>
-      <div class="gi"><img src="{{ asset('images/bracket-install.jpg') }}" alt="Bracket install"><div class="gi-cap">Wall Bracket Installation</div></div>
-      <div class="gi"><img src="{{ asset('images/indoor-unit-repair.jpg') }}" alt="Indoor repair"><div class="gi-cap">Indoor Unit Service & Repair</div></div>
-      <div class="gi"><img src="{{ asset('images/rooftop-repair.jpg') }}" alt="Rooftop repair"><div class="gi-cap">Rooftop Unit Maintenance</div></div>
+      {{-- Tall feature: scaffold HVAC --}}
+      <div class="gi gi--tall">
+        <img src="{{ asset('images/hvac-scaffold-install.jpg') }}" alt="Commercial HVAC scaffold installation">
+        <div class="gi-cap">Commercial HVAC – Scaffold Installation</div>
+      </div>
+      {{-- Row 1 --}}
+      <div class="gi"><img src="{{ asset('images/floor-mounted-install.jpg') }}" alt="Floor-mounted unit install"><div class="gi-cap">Floor-Mounted Unit Installation</div></div>
+      <div class="gi"><img src="{{ asset('images/commercial-hvac-scaffold.jpg') }}" alt="Commercial HVAC ceiling work"><div class="gi-cap">Commercial Ceiling HVAC Work</div></div>
+      <div class="gi"><img src="{{ asset('images/ceiling-duct-wiring.jpg') }}" alt="Ceiling duct and wiring"><div class="gi-cap">Ceiling Duct & Electrical Routing</div></div>
+      {{-- Row 2 --}}
+      <div class="gi"><img src="{{ asset('images/install-outdoor-unit.jpg') }}" alt="Team outdoor unit install"><div class="gi-cap">Outdoor Unit Team Installation</div></div>
+      <div class="gi"><img src="{{ asset('images/indoor-unit-repair.jpg') }}" alt="Indoor unit service"><div class="gi-cap">Indoor Unit Service & Repair</div></div>
+      <div class="gi"><img src="{{ asset('images/mitsubishi-indoor-unit.jpg') }}" alt="Mitsubishi unit installed"><div class="gi-cap">Mitsubishi Heavy Industries Split-Type</div></div>
       <div class="gi"><img src="{{ asset('images/condura-outdoor-installed.jpg') }}" alt="Condura installed"><div class="gi-cap">Condura Inverter – Completed Install</div></div>
-      <div class="gi"><img src="{{ asset('images/daikin-delivery.jpg') }}" alt="Daikin delivery"><div class="gi-cap">Daikin Unit Delivery</div></div>
     </div>
   </div>
 </section>
@@ -91,7 +98,7 @@
       <div class="why-list">
         @foreach([
           ['Licensed Engineers','All work performed by PRC-licensed engineers and certified technicians.'],
-          ['End-to-End Service','From supply and installation to maintenance and repair — one team.'],
+          ['Commercial & Industrial Ready','We handle high-bay commercial spaces, scaffolding installs, and full HVAC builds.'],
           ['Fast Response','Same-day response for urgent breakdowns. PM contracts available.'],
           ['Quality Equipment','Authorized dealer of Mitsubishi, Daikin, Carrier, Panasonic, Condura.'],
         ] as $p)
@@ -104,7 +111,7 @@
       <a href="{{ route('about') }}" class="btn btn-primary">Learn More About Us</a>
     </div>
     <div class="why-photos">
-      <img src="{{ asset('images/outdoor-unit-welding.jpg') }}" alt="Technician working">
+      <img src="{{ asset('images/ceiling-duct-wiring.jpg') }}" alt="Ceiling installation work">
       <img src="{{ asset('images/condura-delivery.jpg') }}" alt="Delivery to client">
     </div>
   </div>
