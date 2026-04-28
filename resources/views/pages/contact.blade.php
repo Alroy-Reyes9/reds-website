@@ -14,8 +14,8 @@
   <div class="container contact-cols">
     <div class="contact-info">
       <h3>Reach Us Directly</h3>
-      <div class="c-item"><div class="c-ico">📍</div><div><strong>Office Address</strong><p>Metro Manila, Philippines</p></div></div>
-      <div class="c-item"><div class="c-ico">📞</div><div><strong>Phone / Viber</strong><p><a href="tel:+630000000000">+63 900 000 0000</a></p></div></div>
+      <div class="c-item"><div class="c-ico">📍</div><div><strong>Office Address</strong><p>91 Doña Nieves St San Isidro Angono, Rizal</p></div></div>
+      <div class="c-item"><div class="c-ico">📞</div><div><strong>Phone / Viber</strong><p><a href="tel:+630000000000">+63 9176710074</a></p></div></div>
       <div class="c-item"><div class="c-ico">✉️</div><div><strong>Email</strong><p><a href="mailto:info@redseds.com">info@redseds.com</a></p></div></div>
       <div class="c-item"><div class="c-ico">🕐</div><div><strong>Business Hours</strong><p>Mon–Sat: 8:00 AM – 6:00 PM<br>Emergency: 24/7</p></div></div>
     </div>
