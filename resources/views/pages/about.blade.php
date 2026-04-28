@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','About Us – REDS EDS')
+@section('title','About Us – REDS')
 @section('content')
 
 <section class="page-hero">
