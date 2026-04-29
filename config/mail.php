@@ -115,4 +115,13 @@ return [
         'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Laravel')),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Admin Recipient Address
+    |--------------------------------------------------------------------------
+    | The email address that receives contact and booking form submissions.
+    | Set MAIL_ADMIN_ADDRESS in your .env file.
+    */
+    'admin_address' => env('MAIL_ADMIN_ADDRESS', env('MAIL_FROM_ADDRESS', 'admin@example.com')),
+
 ];

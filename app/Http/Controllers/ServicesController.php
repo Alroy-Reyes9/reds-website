@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    private function getAllServices(): array
+    public static function getAllServices(): array
     {
         return [
             'aircon' => [
