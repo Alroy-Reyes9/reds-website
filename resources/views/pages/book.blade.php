@@ -276,7 +276,7 @@
 
             <div class="contact-quick">
                 <p>Prefer to call or message us directly?</p>
-                <a href="tel:+63XXXXXXXXXX"><i data-lucide="phone" size="15"></i> Call Us Now</a>
+                <a href="tel:+639176710074"><i data-lucide="phone" size="15"></i> Call Us Now</a>
                 <a href="{{ route('contact') }}"><i data-lucide="mail" size="15"></i> Send an Inquiry</a>
             </div>
         </aside>

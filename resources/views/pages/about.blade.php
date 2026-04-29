@@ -1,11 +1,11 @@
 @extends('layouts.app')
-@section('title','About Us – REDS EDS')
+@section('title','About Us – REDS')
 @section('content')
 
 <section class="page-hero">
   <div class="container">
     <span class="label">Who We Are</span>
-    <h1>About <span class="text-red">REDS EDS</span></h1>
+    <h1>About <span class="text-red">REDS</span></h1>
     <p>Passionate about engineering excellence and lasting client relationships.</p>
   </div>
 </section>
@@ -16,7 +16,7 @@
       <span class="label">Our Story</span>
       <h2>Engineering That <span class="text-red">Stands the Test of Time</span></h2>
       <p>REDS Electromechanical Engineering Services was founded with one clear mission: to deliver reliable, high-quality mechanical and electrical services across the Philippines.</p>
-      <p>From humble beginnings in residential aircon servicing, REDS EDS has grown into a full-service electromechanical contractor — handling complex HVAC systems, industrial chillers, boilers, compressed air systems, fire pumps, and generator sets.</p>
+      <p>From humble beginnings in residential aircon servicing, REDS has grown into a full-service electromechanical contractor — handling complex HVAC systems, industrial chillers, boilers, compressed air systems, fire pumps, and generator sets.</p>
       <p>Our team of licensed engineers and certified technicians brings deep technical expertise and a commitment to safety, quality, and customer satisfaction to every project — from single-room installs to multi-story commercial builds.</p>
     </div>
     <div class="values">

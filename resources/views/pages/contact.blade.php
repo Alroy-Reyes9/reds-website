@@ -1,11 +1,11 @@
 @extends('layouts.app')
-@section('title','Contact Us – REDS EDS')
+@section('title','Contact Us – REDS')
 @section('content')
 
 <section class="page-hero">
   <div class="container">
     <span class="label">Get In Touch</span>
-    <h1>Contact <span class="text-red">REDS EDS</span></h1>
+    <h1>Contact <span class="text-red">REDS</span></h1>
     <p>Request a quote, book a site visit, or ask us anything about your project.</p>
   </div>
 </section>
@@ -14,9 +14,9 @@
   <div class="container contact-cols">
     <div class="contact-info">
       <h3>Reach Us Directly</h3>
-      <div class="c-item"><div class="c-ico">📍</div><div><strong>Office Address</strong><p>Metro Manila, Philippines</p></div></div>
-      <div class="c-item"><div class="c-ico">📞</div><div><strong>Phone / Viber</strong><p><a href="tel:+630000000000">+63 900 000 0000</a></p></div></div>
-      <div class="c-item"><div class="c-ico">✉️</div><div><strong>Email</strong><p><a href="mailto:info@redseds.com">info@redseds.com</a></p></div></div>
+      <div class="c-item"><div class="c-ico">📍</div><div><strong>Office Address</strong><p>91 Doña Nieves St, San Isidro, Angono, Rizal</p></div></div>
+      <div class="c-item"><div class="c-ico">📞</div><div><strong>Phone / Viber</strong><p><a href="tel:+639176710074">+63 917 671 0074</a></p></div></div>
+      <div class="c-item"><div class="c-ico">✉️</div><div><strong>Email</strong><p><a href="mailto:roland26fuentes@gmail.com">roland26fuentes@gmail.com</a></p></div></div>
       <div class="c-item"><div class="c-ico">🕐</div><div><strong>Business Hours</strong><p>Mon–Sat: 8:00 AM – 6:00 PM<br>Emergency: 24/7</p></div></div>
     </div>
     <div class="contact-form-wrap">
@@ -27,7 +27,7 @@
         @csrf
         <div class="row2">
           <div class="form-group"><label>Full Name <span class="req">*</span></label><input type="text" name="name" value="{{ old('name') }}" placeholder="Juan dela Cruz" required></div>
-          <div class="form-group"><label>Phone / Viber <span class="req">*</span></label><input type="text" name="phone" value="{{ old('phone') }}" placeholder="+63 900 000 0000" required></div>
+          <div class="form-group"><label>Phone / Viber <span class="req">*</span></label><input type="text" name="phone" value="{{ old('phone') }}" placeholder="+63 9XX XXX XXXX" required></div>
         </div>
         <div class="form-group"><label>Email Address</label><input type="email" name="email" value="{{ old('email') }}" placeholder="you@email.com"></div>
         <div class="form-group">

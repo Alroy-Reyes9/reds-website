@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="REDS Electromechanical Engineering Services – Aircon, HVAC, Chiller, Boiler, Gen Set and more.">
-<title>@yield('title', 'REDS EDS – Electromechanical Engineering Services')</title>
+<title>@yield('title', 'REDS – Electromechanical Engineering Services')</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -15,7 +15,7 @@
 <header class="navbar" id="navbar">
   <div class="container nav-inner">
     <a href="{{ route('home') }}" class="nav-logo">
-      <img src="{{ asset('images/reds-logo.jpg') }}" alt="REDS EDS">
+      <img src="{{ asset('images/reds-logo.jpg') }}" alt="REDS">
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="{{ route('home') }}"     class="{{ request()->routeIs('home')     ? 'active' : '' }}">Home</a>
@@ -35,7 +35,7 @@
 <footer class="footer">
   <div class="container footer-grid">
     <div>
-      <img src="{{ asset('images/reds-logo.jpg') }}" alt="REDS EDS" class="footer-logo">
+      <img src="{{ asset('images/reds-logo.jpg') }}" alt="REDS" class="footer-logo">
       <p class="footer-tag">Powering comfort and reliability through expert electromechanical engineering.</p>
       <div class="footer-socials">
         <a href="#" aria-label="Facebook">
@@ -68,9 +68,9 @@
     <div class="footer-col">
       <h4>Contact</h4>
       <address>
-        <p>📍 Metro Manila, Philippines</p>
-        <p>📞 <a href="tel:+630000000000">+63 900 000 0000</a></p>
-        <p>✉️ <a href="mailto:info@redseds.com">info@redseds.com</a></p>
+        <p>📍 91 Doña Nieves St, San Isidro, Angono, Rizal</p>
+        <p>📞 <a href="tel:+639176710074">+63 917 671 0074</a></p>
+        <p>✉️ <a href="mailto:roland26fuentes@gmail.com">roland26fuentes@gmail.com</a></p>
         <p>🕐 Mon–Sat 8AM–6PM · Emergency 24/7</p>
       </address>
     </div>

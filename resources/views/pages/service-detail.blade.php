@@ -193,8 +193,8 @@
 
             <div class="sidebar-contact">
                 <h5>Contact Us Directly</h5>
-                <div class="contact-row"><i data-lucide="phone" size="16"></i> +63 XXX XXX XXXX</div>
-                <div class="contact-row"><i data-lucide="mail" size="16"></i> info@redsengineering.com</div>
+                <div class="contact-row"><i data-lucide="phone" size="16"></i> +63 917 671 0074</div>
+                <div class="contact-row"><i data-lucide="mail" size="16"></i> roland26fuentes@gmail.com</div>
                 <div class="contact-row"><i data-lucide="clock" size="16"></i> Mon–Sat 8AM–6PM | 24/7 Emergency</div>
             </div>
         </aside>
